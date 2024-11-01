@@ -1,0 +1,28 @@
+{
+  "apiVersion": 2,
+  "name": "vk-simple-copy-block/simple-copy",
+  "category": "vk-simple-copy-block",
+  "title": "Simple Copy",
+  "description": "A block to copy the code of the block inside the copy target.",
+  "textdomain": "vk-simple-copy-block",
+  "attributes": {
+    "blockId": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "className": true,
+    "reusable": false
+  },
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

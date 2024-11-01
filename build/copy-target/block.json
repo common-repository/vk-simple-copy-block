@@ -1,0 +1,35 @@
+{
+  "apiVersion": 2,
+  "name": "vk-simple-copy-block/copy-target",
+  "category": "vk-simple-copy-block",
+  "title": "Copy Target",
+  "description": "The inner blocks of this block will be copied.",
+  "textdomain": "vk-simple-copy-block",
+  "parent": [
+    "vk-simple-copy-block/simple-copy"
+  ],
+  "supports": {
+    "html": false,
+    "className": true,
+    "spacing": {
+      "padding": true,
+      "__experimentalDefaultControls": {
+        "padding": true
+      }
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "style": true,
+        "width": true
+      }
+    },
+    "reusable": false
+  },
+  "editorScript": "file:./index.js"
+}
